@@ -1,26 +1,26 @@
 # Churn-Project
-Из «Бета-Банка» стали уходить клиенты. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
-Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Нам предоставлены исторические данные о поведении клиентов и расторжении договоров с банком. 
-Необходимо построить модель с предельно большим значением F1-меры, но не менее 0.59. 
-Дополнительно нужно измерять AUC-ROC и сравнивать её значение с F1-мерой.
+The bank started to lose clients. Marketing department considered that maintaining current clients is cheaper than attracting new ones.
+We need to predict if the client will churn or not. We have some records about the churning of the clients.
+We need to make a model with the biggest F1 possible. Also it must be greater than 0.59.
+Also we need to measure AUC-ROC and compare it with the F1.
 
-Описание данных
-Данные находятся в файле Churn.csv.
+Data description
+Data is in the Churn.csv file.
 
-Признаки
-RowNumber — индекс строки в данных
-CustomerId — уникальный идентификатор клиента
-Surname — фамилия
-CreditScore — кредитный рейтинг
-Geography — страна проживания
-Gender — пол
-Age — возраст
-Tenure — сколько лет человек является клиентом банка
-Balance — баланс на счёте
-NumOfProducts — количество продуктов банка, используемых клиентом
-HasCrCard — наличие кредитной карты
-IsActiveMember — активность клиента
-EstimatedSalary — предполагаемая зарплата
+Feature variables
+RowNumber — row index in data
+CustomerId — unique client identifier
+Surname
+CreditScore
+Geography — country of the client
+Gender
+Age
+Tenure
+Balance — account balance
+NumOfProducts — number of bank products that client uses
+HasCrCard — if client has a credit card or not
+IsActiveMember
+EstimatedSalary
 
-Целевой признак
-Exited — факт ухода клиента
+Target variable
+Exited — if the client churned or not
