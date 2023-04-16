@@ -8,19 +8,19 @@ Data description
 Data is in the Churn.csv file.
 
 Feature variables
-RowNumber — row index in data
-CustomerId — unique client identifier
-Surname
-CreditScore
-Geography — country of the client
-Gender
-Age
-Tenure
-Balance — account balance
-NumOfProducts — number of bank products that client uses
-HasCrCard — if client has a credit card or not
-IsActiveMember
-EstimatedSalary
+- RowNumber — row index in data
+- CustomerId — unique client identifier
+- Surname
+- CreditScore
+- Geography — country of the client
+- Gender
+- Age
+- Tenure
+- Balance — account balance
+- NumOfProducts — number of bank products that client uses
+- HasCrCard — if client has a credit card or not
+- IsActiveMember
+- EstimatedSalary
 
 Target variable
-Exited — if the client churned or not
+- Exited — if the client churned or not
