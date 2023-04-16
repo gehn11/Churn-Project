@@ -25,4 +25,4 @@ Feature variables
 Target variable
 - Exited — if the client churned or not
 
-We achieved to make a model that has the F1 value of more than targeted 0.59. The biggest F1 value we got is 0.5991. The AUC-ROC value of the model is 0.8614.
+We achieved to make a model that has the F1 value of more than targeted 0.59. The model is RandomForestClassifier with max_depth=11, n_estimators=120. To deal with imbalanced classification we chose to use "class_weight='balanced'". The F1 value of the chosen model on the test sample is 0.5991. The AUC-ROC value of the model on the test sample is 0.8614.
